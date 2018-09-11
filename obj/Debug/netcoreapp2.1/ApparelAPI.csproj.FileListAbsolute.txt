@@ -1,0 +1,14 @@
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/bin/Debug/netcoreapp2.1/ApparelAPI.deps.json
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/bin/Debug/netcoreapp2.1/ApparelAPI.runtimeconfig.json
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/bin/Debug/netcoreapp2.1/ApparelAPI.runtimeconfig.dev.json
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/bin/Debug/netcoreapp2.1/ApparelAPI.dll
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/bin/Debug/netcoreapp2.1/ApparelAPI.pdb
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.csprojAssemblyReference.cache
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.csproj.CoreCompileInputs.cache
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.RazorAssemblyInfo.cache
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.RazorAssemblyInfo.cs
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.AssemblyInfoInputs.cache
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.AssemblyInfo.cs
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.RazorTargetAssemblyInfo.cache
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.dll
+/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/Debug/netcoreapp2.1/ApparelAPI.pdb
