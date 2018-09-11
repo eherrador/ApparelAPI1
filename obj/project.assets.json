@@ -11507,11 +11507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/edgarherrador/Documents/GitHub/ApparelAPI/ApparelAPI.csproj",
+      "projectUniqueName": "/Users/edgarherrador/Documents/GitHub/ApparelAPI1/ApparelAPI.csproj",
       "projectName": "ApparelAPI",
-      "projectPath": "/Users/edgarherrador/Documents/GitHub/ApparelAPI/ApparelAPI.csproj",
+      "projectPath": "/Users/edgarherrador/Documents/GitHub/ApparelAPI1/ApparelAPI.csproj",
       "packagesPath": "/Users/edgarherrador/.nuget/packages/",
-      "outputPath": "/Users/edgarherrador/Documents/GitHub/ApparelAPI/obj/",
+      "outputPath": "/Users/edgarherrador/Documents/GitHub/ApparelAPI1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
