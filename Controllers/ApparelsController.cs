@@ -45,7 +45,7 @@ namespace ApparelAPI.Controllers
         [HttpGet("{sku}")]
         public IActionResult Get(string sku)
         {
-            var item = _context.Products.Where(b => b.SKU.Contains(sku));
+            Product item = _context.Products.Where(b => b.SKU.Contains(sku)).First();
             if (item == null)
             {
                 return NotFound();
