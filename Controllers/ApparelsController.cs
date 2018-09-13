@@ -55,9 +55,21 @@ namespace ApparelAPI.Controllers
 
         // POST api/Apparels
         [HttpPost]
-        public IActionResult Post([FromBody] Product product)
+        public IActionResult Post(string sku, int quantity)
         {
-            _context.Products.Add(product);
+            //_context.Products.Add(product);
+            //_context.SaveChanges();
+            //return NoContent();
+
+            Product item = _context.Products.Where(b => b.SKU.Contains(sku)).First();
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            item.Quantity = quantity;
+
+            _context.Products.Update(item);
             _context.SaveChanges();
             return NoContent();
         }
