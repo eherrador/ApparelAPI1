@@ -67,7 +67,7 @@ namespace ApparelAPI.Controllers
 
             _context.Products.Update(item);
             _context.SaveChanges();
-            return NoContent();
+            return Ok(item);
         }
 
         // PUT api/Apparels/5
