@@ -55,7 +55,7 @@ namespace ApparelAPI.Controllers
 
         // POST api/Apparels
         [HttpPost("{sku}")]
-        public IActionResult Post(string sku, [FromBody] int quantity)
+        public IActionResult Post(string sku, [FromBody] string quantity)
         {
             Product item = _context.Products.Where(b => b.SKU.Contains(sku)).First();
             if (item == null)
@@ -63,7 +63,7 @@ namespace ApparelAPI.Controllers
                 return NotFound();
             }
 
-            item.Quantity = quantity;
+            item.Quantity = Convert.ToInt32(quantity);
 
             _context.Products.Update(item);
             _context.SaveChanges();
