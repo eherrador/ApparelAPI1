@@ -54,8 +54,9 @@ namespace ApparelAPI.Controllers
         }
 
         // POST api/Apparels
-        [HttpPost("{sku}")]
-        public IActionResult Post(string sku, [FromBody] string quantity)
+        //[HttpPost("{sku, quantity}")]
+        [HttpPost]
+        public IActionResult Post(string sku, string quantity)
         {
             Product item = _context.Products.Where(b => b.SKU.Contains(sku)).First();
             if (item == null)
