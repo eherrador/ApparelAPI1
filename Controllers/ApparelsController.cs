@@ -54,17 +54,22 @@ namespace ApparelAPI.Controllers
         }
 
         // POST api/Apparels
-        //[HttpPost("{sku, quantity}")]
-        [HttpPost]
-        public IActionResult Post(string sku, string quantity)
+        [HttpPost("{skuquantity}")]
+        //[HttpPost]
+        //public IActionResult Post(string sku, string quantity)
+        public IActionResult Post(string skuquantity)
         {
-            Product item = _context.Products.Where(b => b.SKU.Contains(sku)).First();
+            var _sku = skuquantity.Substring(0,skuquantity.IndexOf("-"));
+            var _quantity = skuquantity.Substring(skuquantity.IndexOf("-")+1);
+            Product item = _context.Products.Where(b => b.SKU.Contains(_sku)).First();
             if (item == null)
             {
                 return NotFound();
             }
 
-            item.Quantity = Convert.ToInt32(quantity);
+            //item.SKU = _sku;
+            item.Quantity = Convert.ToInt32(_quantity);
+            //item.Name = item.Name;
 
             _context.Products.Update(item);
             _context.SaveChanges();
